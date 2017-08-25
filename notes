@@ -1,4 +1,14 @@
 
 Jupiter notebooks available online at : http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/
 
+to install stuff outside of a virtualenv :
+   - from the command line : 
+      > export PIP_REQUIRE_VIRTUALENV=false
+      > pip install --upgrade pip
+      > pip install jupyter
+
+to run jupyter server and have notebooks appear in a browser
+     > jupyter notebook {from root dir where above notebooks installed}
+
+in a browser, type 'manual jupyter notebook' to get to the user manual
 
